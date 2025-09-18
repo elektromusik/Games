@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+game_of_life/__init__.py
+game_of_life/__main__.py
+game_of_life/cli.py
+game_of_life/grid.py
+game_of_life/patterns.py
+game_of_life/views.py
+game_of_life.egg-info/PKG-INFO
+game_of_life.egg-info/SOURCES.txt
+game_of_life.egg-info/dependency_links.txt
+game_of_life.egg-info/top_level.txt
