@@ -1,3 +1,7 @@
 Metadata-Version: 2.4
 Name: game_of_life
-Version: 0.0.0
+Version: 1.0.0
+Summary: Conways Game of Life in your terminal.
+Author-email: "Dr. Leonard Pleschberger" <leonard.pleschberger@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: tomli; python_version < "3.11"

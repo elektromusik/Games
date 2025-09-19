@@ -1,9 +1,9 @@
 import collections
 
-ALIVE = "u2610" # BALLOT BOX
-DEAD  = "u2629" # CROSS OF JERUSALEM
+ALIVE = "♥"
+DEAD = "‧"
 
-class Grid:
+class LifeGrid:
     def __init__(self, pattern):
         self.pattern = pattern
 
@@ -38,7 +38,7 @@ class Grid:
     def as_string(self, bbox):
         
         start_col, start_row, end_col, end_row = bbox
-        display = [self.pattern.name.center(2*(end_col - start_col))]
+        display = [self.pattern.name.center(2 * (end_col - start_col))]
         
         for row in range(start_row, end_row):
             display_row = [
@@ -46,7 +46,6 @@ class Grid:
                 for col in range(start_col, end_col)
             ]
             display.append(" ".join(display_row))
-        
         return "\n ".join(display)    
 
     def __str__(self):
